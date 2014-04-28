@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ICDMW</title>
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+</head>
+<body>
+
+  <script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" style="text-align:center">
+          <h1 id="icdmw">Are you blocked?</h1>
+        <p>
+          <input type="button" value="Yes"  onclick="play()" class="btn btn-danger">
+          <audio id="audio" src="icdmw.mp3"></audio>
+        </p>
+      </div>
+        <div class="col-md-3"></div>
+      </div>
+  </div>
+</body>
+</html>
